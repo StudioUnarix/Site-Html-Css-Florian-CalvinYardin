@@ -171,6 +171,76 @@ header
 
 
 
+.containerfiche3
+{
+	background: url("includes/images/backgrounds/vilebrequin-sylvain.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+
+.containerfiche3 h1
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+}
+.containerfiche3 span
+{
+	text-shadow: 0 0 5px #008cff;
+	color: #008cff;
+}
+.containerfiche3 p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	line-height: 20px;
+}
+.containerfiche3 .VoitureImages
+{
+	text-align: center;
+	font-size: 25px;
+}
+.containerfiche3 .infoVoiture
+{
+	width: 550px;
+	color: white;
+}
+.containerfiche3 .VoitureImages img
+{
+	width: 600px;
+}
+.containerfiche3 .infoVoiture a
+{
+	background-color: #002fff;
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	border: 1px #002fff solid;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	font-size: 15px;
+}
+.containerfiche3 .infoVoiture a:hover
+{
+	color: #002fff;
+	background: none;
+	border: solid #002fff 1px;
+	cursor: pointer;
+}
+
+
+
+
 .containerfiche h1
 {
 	font-family: 'Montserrat', sans-serif;
@@ -247,12 +317,12 @@ header
 	color: var(--white);
 }
 
-.containerinfovehicule2
+.containerinfovehicule3
 {
 	display: flex;
 	justify-content: space-around;
 	height: 100vh;
-	background: url("includes/images/backgrounds/lamborBack.jpg");
+	background: url("includes/images/backgrounds/dourfer-robin-1000tipla-0003-multi13-compo-name.jpg");
 	background-size: cover;
 }
 .containerinfovehicule2 .Information
@@ -260,15 +330,52 @@ header
 	padding-top: 200px;
 	width: 300px;
 }
+.containerinfovehicule3 h1
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #002fff;
+}
+.containerinfovehicule3 p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.containerinfovehicule2
+{
+	
+	display: flex;
+	justify-content: space-around;
+	height: 100vh;
+	background: url("includes/images/backgrounds/lamborBack.jpg");
+	background-size: cover;
+}
+.containerinfovehicule3 .Information
+{
+	
+	padding-top: 200px;
+	width: 300px;
+}
 .containerinfovehicule2 h1
 {
+	font-family: 'Montserrat', sans-serif;
 	color: #ffd900;
 }
 .containerinfovehicule2 p
 {
+	font-family: 'Montserrat', sans-serif;
 	color: var(--white);
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 54d8a4d (tototorododo)
 .homeContainer
 {
 	display: flex;
