@@ -424,7 +424,6 @@ header
 {
 	width: 25vw;
 }
-<<<<<<< HEAD
 
 .homeContainer p.presentation
 {
@@ -432,16 +431,21 @@ header
 	margin-bottom: 55px;
 	text-decoration: underline;
 }
-=======
-footer
+
+a.goToTop
 {
-		display: flex;
-		justify-content: center;
-		padding: 5px;
-		background-color: #ffffff;
-		color: rgb(0, 0, 0);
-		border-top: solid var(--primaryColor) ;
-		font-family: 'Montserrat', sans-serif;
-	
+	transition: .1s;
+	position: fixed;
+	bottom: 25px; right: 25px;
+
+	width: 60px;
+	height: 60px;
+	border-radius: 999px;
+
+	background: center / contain url("includes/images/icons/arrow.png");
 }
->>>>>>> c30d672 (tezfdezdzfe)
+
+a.goToTop:hover
+{
+	transform: rotateZ(-90deg);
+}
