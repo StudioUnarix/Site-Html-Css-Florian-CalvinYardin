@@ -549,6 +549,22 @@ a.goToTop:hover
 	{
 		max-width: 350px;
 	}
+
+	.containerform .connexion
+	{
+		position: absolute;
+		top: 20vh;
+		left: 0;
+		padding: 50px;
+	}
+	.containerform .inscription
+	{
+		position: absolute;
+		top: 50vh;
+		left: 0;
+		padding: 50px;
+		width: 500px;
+	}
 }
 
 .VoitureImages img
@@ -599,4 +615,105 @@ a.goToTop:hover
 .floatMenu a.item:hover
 {
 	box-shadow: #444 1px 1px 5px 0px inset, #444 -1px -1px 5px 1px inset;
+}
+.containerform
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100vh;
+	background: url("includes/images/backgrounds/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.containerform .connexion
+{
+	background: #ffffff;
+	padding: 15px;
+	border-radius: 5px;
+	width: 20%;
+}
+.containerform .connexion input[type="text"]
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	border: 1px solid var(--primaryColor);
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 30px;
+	
+}
+.containerform .connexion input[type="text"]:focus
+{
+	border: none;
+}
+.containerform .connexion input[type="submit"]
+{
+	border: 1px solid var(--primaryColor);
+	background-color: var(--primaryColor);
+	border-radius: 50px;
+	width: 100%;
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+.containerform .connexion input[type="submit"]:hover
+{
+	color: var(--primaryColor);
+	border: 1px solid var(--primaryColor);
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.containerform .inscription
+{
+	background: #ffffff;
+	padding: 15px;
+	border-radius: 5px;
+	width: 20%;
+}
+.containerform .inscription input[type="text"]
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+	border: 1px solid var(--primaryColor);
+	border-radius: 30px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.containerform .inscription input[type="text"]:focus
+{
+	border: none;
+}
+
+.containerform .inscription input[type="submit"]
+{
+	border: 1px solid var(--primaryColor);
+	background-color: var(--primaryColor);
+	border-radius: 50px;
+	width: 100%;
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+.containerform .inscription input[type="submit"]:hover
+{
+	color: var(--primaryColor);
+	border: 1px solid var(--primaryColor);
+	background-color: #ffffff;
+	cursor: pointer;
+}
+label
+{
+		font-family: 'Montserrat', sans-serif;
 }

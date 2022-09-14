@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarAndGo | Location de véhicules haut de gamme</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CarAndGo | Location de véhicules haut de gamme</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" href="includes/images/icons/smallIcon.png" type="image/x-icon">
 </head>
 <body>
-    
-    <!-- en-tête -->
+	
+	<!-- en-tête -->
 	<header>
 		<a href="index.html"><img class="icon invert" src="includes/images/icons/icon.png" alt="icône du site"></a>
 		<a class="button" href="register.html">Inscription / Connexion</a>
 	</header>
 
-    
+	<div class="containerform">
+		<div class="connexion">
+			<form action="post">
+				<h1>Connexion</h1>
+			<label for="Email">Email <br>
+				<input name="Email" type="text">
+			</label><br>
+			<label for="Mdp">Mot de passe <br>
+				<input name="mdp" type="text">
+			</label><br>
+			<input type="submit">
+			</form>
+		</div>
+		<div class="inscription">
+			<form action="post">
+				<h1>Inscription</h1>
 
-    <a class="goToTop" href="#"></a>
+				<label for="text">Nom <br>
+					<input name="Nom" type="text">
+				</label><br>
+				<label for="Email">Prenom <br>
+					<input name="Prenom" type="text">
+				</label><br>
+				<label for="Email">Email <br>
+					<input name="Email" type="text">
+				</label><br>
+				<label for="Emailc">Email confirmation <br>
+					<input name="Emailc" type="text">
+				</label><br>
+				<label for="mdp">Mot de passe <br>
+					<input name="mdp" type="text">
+				</label><br>
+				<label for="mdpc">Mot de passe confirmation <br>
+					<input name="mdpc" type="text">
+				</label><br>
+				<input type="submit">
+
+			</form>
+		</div>
+	</div>
+
+	<a class="goToTop" href="#"></a>
 
 	<footer>
 		@CarAndGo™ Privacy 
 	</footer>
-    
+	
 </body>
 </html>
