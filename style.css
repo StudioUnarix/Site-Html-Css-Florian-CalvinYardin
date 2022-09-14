@@ -424,6 +424,7 @@ header
 {
 	width: 25vw;
 }
+<<<<<<< HEAD
 
 .homeContainer p.presentation
 {
@@ -431,3 +432,16 @@ header
 	margin-bottom: 55px;
 	text-decoration: underline;
 }
+=======
+footer
+{
+		display: flex;
+		justify-content: center;
+		padding: 5px;
+		background-color: #ffffff;
+		color: rgb(0, 0, 0);
+		border-top: solid var(--primaryColor) ;
+		font-family: 'Montserrat', sans-serif;
+	
+}
+>>>>>>> c30d672 (tezfdezdzfe)
