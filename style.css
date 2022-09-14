@@ -532,3 +532,8 @@ a.goToTop:hover
 		background-repeat: no-repeat;
 	}
 }
+
+.VoitureImages img
+{
+	filter: drop-shadow(2px 2px 30px #311);
+}
