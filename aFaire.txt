@@ -1,0 +1,3 @@
+header (inscription connexion) et footer
+responsive
+dans le content : 3 fiches (films ou autres), au moment du clic, fiche détaillée avec retour + accès aux autres fiches
