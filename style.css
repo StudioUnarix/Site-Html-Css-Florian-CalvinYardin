@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,300;1,400&display=swap');
 :root
 {
     --white: #eee;
@@ -20,4 +21,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+.containerfiche h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.containerfiche p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 20px;
+}
+.containerfiche .VoitureImages
+{
+    text-align: center;
+    font-size: 25px;
+}
+.containerfiche .infoVoiture
+{
+    width: 550px;
+    color: white;
 }
