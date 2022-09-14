@@ -121,44 +121,59 @@ header
 {
 	width: 600px;
 }
-.containerfiche .infoVoiture a
+.containerfiche .infoVoiture button
 {
 	background-color: var(--primaryColor);
 	padding: 8px;
 	border-radius: 5px;
 	border: none;
-	margin-top: 10px;
+	margin: 8px;
 	font-family: 'Montserrat', sans-serif;
 	border: 1px var(--primaryColor) solid;
 	color: white;
 	font-weight: 500;
 	font-size: 15px;
 }
-.containerfiche .infoVoiture a:hover
+.containerfiche .infoVoiture button:hover
 {
 	color: rgb(255, 255, 255);
 	background: none;
 	border: solid var(--white) 1px;
 	cursor: pointer;
 }
-.containerinfovehicule
+
+.homeContainer
 {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
-	background: url("includes/images/backgrounds/TeslaBg.jpg");
-	background-size: cover;
+	flex-direction: column;
 }
-.containerinfovehicule .Information
+
+.homeContainer .cardsContainer
 {
-	padding-top: 200px;
-	width: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100vw;
 }
-.containerinfovehicule h1
+
+.homeContainer .cardsContainer .card
 {
-	color: var(--primaryColor);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	height: 450px;
 }
-.containerinfovehicule p
+
+.homeContainer .cardsContainer .card:hover
 {
-	color: var(--white);
+	text-decoration: none;
+}
+
+.homeContainer .cardsContainer .card img
+{
+	width: 25vw;
 }
