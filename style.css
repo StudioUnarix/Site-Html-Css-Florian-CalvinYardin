@@ -14,3 +14,10 @@
     color: var(--black);
     scroll-behavior: smooth;
 }
+.containerfiche
+{
+    background: url("includes/images/backgrounds/tesla-model-s.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
