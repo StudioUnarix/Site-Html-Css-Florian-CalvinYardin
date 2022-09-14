@@ -431,7 +431,16 @@ header
 	margin-bottom: 55px;
 	text-decoration: underline;
 }
-
+footer
+{
+		display: flex;
+		justify-content: center;
+		padding: 5px;
+		background-color: #ffffff;
+		color: rgb(0, 0, 0);
+		border-top: 2px solid var(--primaryColor);
+	
+}
 a.goToTop
 {
 	transition: .1s;
