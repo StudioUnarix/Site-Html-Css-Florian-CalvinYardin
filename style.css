@@ -451,7 +451,9 @@ a.goToTop
 	height: 60px;
 	border-radius: 999px;
 
-	background: center / contain url("includes/images/icons/arrow.png");
+	background: var(--white) center / contain url("includes/images/icons/arrow.png");
+	box-shadow: 3px 3px 18px #533;
+	border: 3px var(--black) solid;
 }
 
 a.goToTop:hover
