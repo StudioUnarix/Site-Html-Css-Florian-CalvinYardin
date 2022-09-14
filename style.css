@@ -87,6 +87,75 @@ header
 	align-items: center;
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
+.containerfiche2
+{
+	background: url("includes/images/backgrounds/ce64b0113565871.602ab9ba6e512.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+
+.containerfiche2 h1
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+}
+.containerfiche2 span
+{
+	text-shadow: 0 0 5px #ffd900;
+	color: #ffd900;
+}
+.containerfiche2 p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	line-height: 20px;
+}
+.containerfiche2 .VoitureImages
+{
+	text-align: center;
+	font-size: 25px;
+}
+.containerfiche2 .infoVoiture
+{
+	width: 550px;
+	color: white;
+}
+.containerfiche2 .VoitureImages img
+{
+	width: 600px;
+}
+.containerfiche2 .infoVoiture a
+{
+	background-color: #ffd900;
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	border: 1px #ffd900 solid;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+	font-size: 15px;
+}
+.containerfiche2 .infoVoiture a:hover
+{
+	color: #ffd900;
+	background: none;
+	border: solid #ffd900 1px;
+	cursor: pointer;
+}
+
+
+
 .containerfiche h1
 {
 	font-family: 'Montserrat', sans-serif;
@@ -162,6 +231,35 @@ header
 {
 	color: var(--white);
 }
+
+.containerinfovehicule2
+{
+	display: flex;
+	justify-content: space-around;
+	height: 100vh;
+	background: url("includes/images/backgrounds/lamborBack.jpg");
+	background-size: cover;
+}
+.containerinfovehicule2 .Information
+{
+	padding-top: 200px;
+	width: 300px;
+}
+.containerinfovehicule2 h1
+{
+	color: #ffd900;
+}
+.containerinfovehicule2 p
+{
+	color: var(--white);
+}
+
+
+
+
+
+
+
 
 .homeContainer
 {
