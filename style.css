@@ -89,20 +89,8 @@ header
 }
 .containerfiche h1
 {
-<<<<<<< Updated upstream
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
-=======
-
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
-	color: rgb(41, 41, 41);
-}
-.containerfiche span
-{
-	text-shadow: 0 0 10px #FFFFFF;
-	color: var(--white);
->>>>>>> Stashed changes
 }
 .containerfiche p
 {
@@ -119,8 +107,4 @@ header
 {
 	width: 550px;
 	color: white;
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
