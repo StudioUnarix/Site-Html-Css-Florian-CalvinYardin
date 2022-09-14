@@ -90,7 +90,6 @@ header
 
 	border-bottom: var(--primaryColor) 3px solid;
 }
-
 .containerfiche
 {
 	background: url("includes/images/backgrounds/tesla-model-s.gif");
@@ -459,4 +458,77 @@ a.goToTop
 a.goToTop:hover
 {
 	transform: rotateZ(-90deg);
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 820px)
+{
+	.containerfiche
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 80vh;
+	}
+	.containerfiche .VoitureImages img
+	{
+		width:350px
+	}
+	.containerinfovehicule
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 150vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.containerfiche2
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 100vh;
+	}
+	.containerfiche2 .VoitureImages img
+	{
+		width:350px
+	}
+	.containerinfovehicule2
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 150vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.containerfiche3
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 80vh;
+	}
+	.containerfiche3 .VoitureImages img
+	{
+		width:350px
+	}
+	.containerinfovehicule3
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		height: 150vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
