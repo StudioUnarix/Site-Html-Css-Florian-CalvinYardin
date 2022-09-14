@@ -121,26 +121,27 @@ header
 {
 	width: 600px;
 }
-.containerfiche .infoVoiture button
+.containerfiche .infoVoiture a
 {
 	background-color: var(--primaryColor);
 	padding: 8px;
 	border-radius: 5px;
 	border: none;
-	margin: 8px;
+	margin-top: 10px;
 	font-family: 'Montserrat', sans-serif;
 	border: 1px var(--primaryColor) solid;
 	color: white;
 	font-weight: 500;
 	font-size: 15px;
 }
-.containerfiche .infoVoiture button:hover
+.containerfiche .infoVoiture a:hover
 {
 	color: rgb(255, 255, 255);
 	background: none;
 	border: solid var(--white) 1px;
 	cursor: pointer;
 }
+<<<<<<< Updated upstream
 
 .homeContainer
 {
@@ -177,3 +178,26 @@ header
 {
 	width: 25vw;
 }
+=======
+.containerinfovehicule
+{
+	display: flex;
+	justify-content: space-around;
+	height: 100vh;
+	background: url("includes/images/backgrounds/TeslaBg.jpg");
+	background-size: cover;
+}
+.containerinfovehicule .Information
+{
+	padding-top: 200px;
+	width: 300px;
+}
+.containerinfovehicule h1
+{
+	color: var(--primaryColor);
+}
+.containerinfovehicule p
+{
+	color: var(--white);
+}
+>>>>>>> Stashed changes
