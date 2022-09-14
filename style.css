@@ -371,7 +371,6 @@ header
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 	flex-direction: column;
 }
 
@@ -380,7 +379,9 @@ header
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	flex-wrap: wrap;
 	width: 100vw;
+	margin: 50px;
 }
 
 .homeContainer .cardsContainer .card
@@ -393,13 +394,14 @@ header
 	flex-direction: column;
 	height: 620px;
 
-	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -10px, rgba(0, 0, 0, 0.3) 0px 30px 60px -15px;
 	padding: 20px;
 	border-radius: 15px;
-	max-width: 520px;
+	max-width: 450px;
 
 	text-align: center;
 	padding: 0 65px;
+	margin: 15px;
 }
 
 .homeContainer .cardsContainer .card:hover
@@ -422,13 +424,13 @@ header
 
 .homeContainer .cardsContainer .card img
 {
-	width: 25vw;
+	width: 400px;
 }
 
 .homeContainer p.presentation
 {
 	text-align: center;
-	margin-bottom: 55px;
+	margin-top: 55px;
 	text-decoration: underline;
 }
 footer
@@ -536,6 +538,16 @@ a.goToTop:hover
 	.floatMenu
 	{
 		right: 25vw;
+	}
+
+	.cardsContainer .card
+	{
+		width: 370px;
+	}
+
+	.cardsContainer .card img
+	{
+		max-width: 350px;
 	}
 }
 
